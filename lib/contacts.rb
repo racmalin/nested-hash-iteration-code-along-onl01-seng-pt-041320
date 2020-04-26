@@ -10,7 +10,10 @@ contacts = {
       email: "jon_snow@thewall.we", 
       favorite_ice_cream_flavors: ["chocolate", "vanilla"]
     },
-   
+contacts.each do |person, contact_details_hash|
+  if person == "Freddy Mercury"
+    contact_details_hash.each do |attribute, data|
+      binding.pry   
    
     "Freddy Mercury" => {
       name: "Freddy",
