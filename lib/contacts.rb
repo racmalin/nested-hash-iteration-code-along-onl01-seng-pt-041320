@@ -15,10 +15,10 @@ contacts = {
       favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
+binding.pry
  end
 end
 
 
 
-  binding.pry
+  
