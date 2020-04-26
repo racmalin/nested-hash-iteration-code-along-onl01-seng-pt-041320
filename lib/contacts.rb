@@ -7,7 +7,9 @@ contacts.each do |person, contact_details_hash|
   if person == "Freddy Mercury"
     contact_details_hash.each do |attribute, data|
       binding.pry   
-contacts = {
+   end
+ end  
+   contacts = {
     "Jon Snow" => {
       name: "Jon",
       email: "jon_snow@thewall.we", 
